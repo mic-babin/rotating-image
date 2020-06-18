@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-image: radial-gradient(circle, #7f09ff, #0f0423);
+}
+
+.container {
+  display: inline-block;
+
+  padding-top: 50px;
+  background-color: #fff;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 0px #000;
+}
+
+.demo {
+  transform: translateX(-50px);
+}
