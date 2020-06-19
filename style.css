@@ -30,3 +30,9 @@ body {
 #demo {
   margin: auto;
 }
+
+@media screen and (max-width: 767px) {
+  #demo {
+    transform: scale(0.5);
+  }
+}

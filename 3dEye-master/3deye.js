@@ -108,9 +108,9 @@
 
         function initializeOverlayDiv() {
             $("html").append("<style type='text/css'>.onLoadingDiv{background-color:#00FF00;opacity:0.5;text-align:center;font-size:2em;font:color:#000000;}</style>")
-            $(selector).html("<div id='VCc' style='height:100%;width:100%;' class='onLoadingDiv'>Loading...</div>");
+            $(selector).html("<div id='VCc' style='height:200px;width:200px;' class='onLoadingDiv'>Loading...</div>");
         }
-
+        // style='height:auto;width:30vw;'
         initializeOverlayDiv();
         forceLoadAllImages();
         //loadAppropriateImage();
